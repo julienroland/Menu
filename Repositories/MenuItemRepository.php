@@ -1,6 +1,6 @@
-<?php namespace Modules\Menu\Repositories;
+<?php namespace Menu\Repositories;
 
-use Modules\Core\Repositories\BaseRepository;
+use Core\Repositories\BaseRepository;
 
 interface MenuItemRepository extends BaseRepository
 {

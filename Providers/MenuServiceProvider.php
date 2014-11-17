@@ -1,10 +1,10 @@
-<?php namespace Modules\Menu\Providers;
+<?php namespace Menu\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Modules\Menu\Entities\Menu;
-use Modules\Menu\Entities\Menuitem;
-use Modules\Menu\Repositories\Eloquent\EloquentMenuItemRepository;
-use Modules\Menu\Repositories\Eloquent\EloquentMenuRepository;
+use Menu\Entities\Menu;
+use Menu\Entities\Menuitem;
+use Menu\Repositories\Eloquent\EloquentMenuItemRepository;
+use Menu\Repositories\Eloquent\EloquentMenuRepository;
 
 class MenuServiceProvider extends ServiceProvider
 {

@@ -1,7 +1,7 @@
-<?php namespace Modules\Menu\Entities;
+<?php namespace Menu\Entities;
 
 use Baum\Node;
-use Modules\Core\Internationalisation\Translatable;
+use Core\Internationalisation\Translatable;
 
 class Menuitem extends Node
 {

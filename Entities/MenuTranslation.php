@@ -1,4 +1,4 @@
-<?php namespace Modules\Menu\Entities;
+<?php namespace Menu\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 

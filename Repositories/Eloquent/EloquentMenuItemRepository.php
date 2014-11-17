@@ -1,9 +1,9 @@
-<?php namespace Modules\Menu\Repositories\Eloquent;
+<?php namespace Menu\Repositories\Eloquent;
 
-use Modules\Core\Internationalisation\Helper;
-use Modules\Core\Repositories\Eloquent\EloquentBaseRepository;
-use Modules\Menu\Entities\Menuitem;
-use Modules\Menu\Repositories\MenuItemRepository;
+use Core\Internationalisation\Helper;
+use Core\Repositories\Eloquent\EloquentBaseRepository;
+use Menu\Entities\Menuitem;
+use Menu\Repositories\MenuItemRepository;
 
 class EloquentMenuItemRepository extends EloquentBaseRepository implements MenuItemRepository
 {

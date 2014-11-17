@@ -1,4 +1,4 @@
-<?php namespace Modules\Menu\Composers;
+<?php namespace \Menu\Composers;
 
 use Illuminate\Contracts\View\View;
 use Modules\Core\Composers\BaseSidebarViewComposer;
